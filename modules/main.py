@@ -107,8 +107,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Nikhil_saini_khe"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/IFSAshuAbhiBot"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/IFSASHU1"),
         ],
     ]
 )
@@ -117,16 +117,16 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Nikhil_saini_khe"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/IFSAshuAbhiBot"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/IFSASHU1"),
         ],
     ]
 )
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
+    "https://envs.sh/QGI.jpg",
     # Add more image URLs as needed
 ]
 
@@ -181,7 +181,7 @@ async def start_command(bot: Client, message: Message):
     # Caption for the image
     caption = (
         "🌟 Welcome Boss😸! 🌟\n\n"
-        "➽ I am powerful uploader bot 📥\n\n➽ 𝐔𝐬𝐞 /saini Command To Extract TXT 🗃️ \n\n➽ 𝐔𝐬𝐞 /Stop for **Stop** ⛔ working process \n\n➽ 𝐔𝐬𝐞 /cookies for update YouTube cookies.\n\n➽ 𝐔𝐬𝐞 /logs to see your bot logs.\n\n➽ 𝐌𝐚𝐝𝐞 𝐁𝐲: 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🦁"
+        "➽ I am powerful uploader bot 📥\n\n➽ 𝐔𝐬𝐞 /abhi Command To Extract TXT 🗃️ \n\n➽ 𝐔𝐬𝐞 /Stop for **Stop** ⛔ working process \n\n➽ 𝐔𝐬𝐞 /cookies for update YouTube cookies.\n\n➽ 𝐔𝐬𝐞 /logs to see your bot logs.\n\n➽ 𝐌𝐚𝐝𝐞 𝐁𝐲:  ༄࿐𑁍IFS𑁍(आशु)❥◉🇮🇳™"
     )
 
     await asyncio.sleep(1)
