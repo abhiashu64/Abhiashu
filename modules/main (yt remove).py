@@ -161,7 +161,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... \nFor command **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+taZCy5OkoMUwNzI9'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n**Bot Made BY 🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌**🔍\n\n"
+        "Checking status Ok... \nFor command **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+taZCy5OkoMUwNzI9'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n**Bot Made BY  ༄࿐𑁍IFS𑁍(आशु)❥◉🇮🇳™**🔍\n\n"
         "Progress:🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%\n\n"
     )
 
@@ -179,7 +179,7 @@ async def txt_handler(bot: Client, m: Message):
     await bot.send_document(OWNER, x)
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎"
+    credit = f" ༄࿐𑁍IFS𑁍(आशु)❥◉🇮🇳™"
     token = f"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYxNTE3MzAuMTI2LCJkYXRhIjp7Il9pZCI6IjYzMDRjMmY3Yzc5NjBlMDAxODAwNDQ4NyIsInVzZXJuYW1lIjoiNzc2MTAxNzc3MCIsImZpcnN0TmFtZSI6IkplZXYgbmFyYXlhbiIsImxhc3ROYW1lIjoic2FoIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiV1dXLkpFRVZOQVJBWUFOU0FIQEdNQUlMLkNPTSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNTU0NjkzMH0.iImf90mFu_cI-xINBv4t0jVz-rWK1zeXOIwIFvkrS0M"
     try:    
         with open(x, "r") as f:
@@ -211,7 +211,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144   for 144p\n┣⪼ 240   for 240p\n┣⪼ 360   for 360p\n┣⪼ 480   for 480p\n┣⪼ 720   for 720p\n┣⪼ 1080  for 1080p\n╰━━⌈⚡[🦋🇸‌🇦‌🇮‌🇳‌🇮‌🦋]⚡⌋━━➣ **")
+    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144   for 144p\n┣⪼ 240   for 240p\n┣⪼ 360   for 360p\n┣⪼ 480   for 480p\n┣⪼ 720   for 720p\n┣⪼ 1080  for 1080p\n╰━━  ༄࿐𑁍IFS𑁍(आशु)❥◉🇮🇳™ **")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
