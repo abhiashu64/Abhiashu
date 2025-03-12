@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: saini-txt-bot
+    name: Abhiashu
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
