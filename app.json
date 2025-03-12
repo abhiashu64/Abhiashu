@@ -1,14 +1,14 @@
 {
-    "name": "NIKHIL",
+    "name": " ༄࿐𑁍IFS𑁍(आशु)❥◉🇮🇳™",
     "description": "Bot For Telegram",
-    "logo": "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "logo": "https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg",
     "keywords": [
         "text-video",
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/nikhilsaini098/Saini-txt-bot",
-    "success_url": "https://github.com/nikhilsaini098/Saini-txt-bot",
+    "repository": "https://github.com/abhiashu64/Abhiashu",
+    "success_url": "https://github.com/abhiashu64/Abhiashu",
     "stack": "container",
     "env": {
         "API_ID": {
