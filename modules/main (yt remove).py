@@ -30,7 +30,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 photo = 'https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg'
 
 credit =" ༄࿐𑁍IFS𑁍(आशु)❥◉🇮🇳™" 
-OWNER = int(os.environ.get("OWNER", 8036182138))
+OWNER = int(os.environ.get("OWNER", 7769588492))
 try: 
     ADMINS=[] 
     for x in (os.environ.get("ADMINS", "8036182138").split()):  
@@ -47,7 +47,7 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-OWNER = int(os.environ.get("OWNER", 8036182138))
+OWNER = int(os.environ.get("OWNER", 7769588492))
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
